@@ -1,0 +1,19 @@
+ varable is the entity in which we r able to store the value.
+
+ var1 = 10
+ var2 = 20
+
+ refrence variable
+
+ refrence varable means we r able to assign the existing variable as a refrence
+
+ var1 = 10
+ var2 = 20
+ var3 = var1
+
+  i.e :
+
+  var4 = var1 + var3
+       
+  print(var4)    
+
