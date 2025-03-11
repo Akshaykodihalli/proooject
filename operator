@@ -4,5 +4,5 @@
   - = substraction
   * = multiplication
   / = division
-  // = flor operator it will consider only the flour value
+  // = flor operator it will consider only the flour value base value is neglected
   % = modulous
