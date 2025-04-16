@@ -20,4 +20,4 @@ echo "deb [signed-by=/usr/share/keyrings/jenkins-keyring.asc]" \
   echo "updating and installing the jenkins"
 
 sudo apt-get update
-sudo apt-get install jenkins
+sudo apt-get install -y jenkins
