@@ -8,6 +8,7 @@ echo "installing openjdk-21..... "
 
 sudo apt install -y openjdk-21-jdk
 
+
 echo "adding the jenkins to the apt list....."
 
 sudo wget -O /usr/share/keyrings/jenkins-keyring.asc \
@@ -18,5 +19,5 @@ echo "deb [signed-by=/usr/share/keyrings/jenkins-keyring.asc]" \
 
   echo "updating and installing the jenkins"
 
-sudo apt update
-sudo apt install jenkins
+sudo apt-get update
+sudo apt-get install jenkins
